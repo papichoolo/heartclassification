@@ -23,3 +23,9 @@ For The RNN Approach, we first built a dataloading function loading audio file a
 We then built a Bidirectional LSTM Model with the extracted Features. Bidirectional LSTM (BiLSTM) is a recurrent neural network. Unlike standard LSTM, the input flows in both directions, and it’s capable of utilizing information from both sides. It’s also a powerful tool for modeling the sequential dependencies between audio signals in both directions of the sequence.
 
 ![lstm](https://user-images.githubusercontent.com/63441604/231684861-fcebb24d-d8db-4489-8a99-743c3d3fe6e5.png)
+
+## Test-set accuracies
+The outcome after running both the models: -
+
+CNN Model - It achieved an Accuracy of 80%.
+RNN Model - It achieved an Accuracy of 75%

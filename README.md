@@ -2,11 +2,12 @@
 Implemented a Heart Audio Classifier using Methods of CNN and RNN in Deep Learning
 
 ### Dataset used:
-For the Heart Sound Challenge, the most ideal dataset to use was the PhysioNet/PASCAL database because the dataset's audio file has been taken via both clinical methods (i.e. a Digital Stethoscope) and also general methods (i.e. an iPhone Stethoscope app).
+For the Heart Sound Challenge, the most ideal dataset to use was the PhysioNet/PASCAL database because the dataset's audio file has been taken via both clinical methods (i.e. a Digital Stethoscope) and also general methods (i.e. an iPhone Stethoscope app). <br>
 Note: The Repo does not contain the audio files for Heart Sounds, this repo only showcases the code for the algorithms used.
 
 ## CNN Approach
 In the CNN approach, a spectrogram was made using a Short Term Fourier Transform of all the Audio Files using the tf.signal module. All the spectrograms were then all spaced out to a consistent length for the CNNs input size.
+<br>
 ![Screenshot_20230215_134958](https://user-images.githubusercontent.com/63441604/231683532-c4281921-72a0-4385-9ca8-2f62bf06a15c.png)
 
 The Convolutional Neural Network was used for a multiclass Image Classification using the tensorflow keras library. It has 2 Conv2D layers which gets flattened into a Fully Connected Layer which classifies audio data.

@@ -3,7 +3,7 @@ Implemented a Heart Audio Classifier using Methods of CNN and RNN in Deep Learni
 
 ### Dataset used;
 For the Heart Sound Challenge, the most ideal dataset to use was the PhysioNet/PASCAL database because the dataset's audio file has been taken via both clinical methods (i.e. a Digital Stethoscope) and also general methods (i.e. an iPhone Stethoscope app). <br>
-Note: The Repo does not contain the audio files for Heart Sounds, this repo only showcases the code for the algorithms used.
+Note: The Repo does not contain the audio files for Heart Sounds, this repo only showcases the code for the algorithms used
 <br>
 ### Main code is shown in Classification.ipynb
 ## CNN Approach
